@@ -1,0 +1,15 @@
+1. place the two files dynamixel_motor and my_dynamixel_tutorial inside catkin_ws/src and buid it using cmd: catkin_make.
+2. once build sucessfully launch the "control_manager.launch" file which is avilable in folder my_dynamixel_tutorial/launch by using terminal. Before doing this make sure you have connected and the USB2Dynamixel to your computer and snake robot is powered. 
+
+cmd :   roslaunch my_dynamixel_tutorial controller_manager.launch 
+
+3. Now open a new terminal and launch the "start_meta_controller.launch" file which is avilable in folder my_dynamixel_tutorial/meta by using terminal
+
+
+cmd: roslaunch my_dynamixel_tutorial start_meta_controller.launch
+
+4. now open a new terminal to run the "cobra positon.py" file which is avilable in folder my_dynamixel_tutorial/script/cobra position by using terminal
+
+cmd:  rosrun my_dynamixel_tutorial cobra position.py
+
+
